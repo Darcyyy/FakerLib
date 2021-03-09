@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074AF6EB8DFFEC089C1B00A0146D7697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0AD3A75625F7200A000D6AD4 /* FLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD3A75425F7200A000D6AD4 /* FLObject.h */; };
+		0AD3A75725F7200A000D6AD4 /* FLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD3A75525F7200A000D6AD4 /* FLObject.m */; };
+		0E6C714889ADCB6E7240D74BE1E28FFF /* Pods-FakerLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA469EF6AF93FFB931F64DF4122ED423 /* Pods-FakerLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F0F4A9820217D7E542583200FBC2B8 /* Pods-FakerLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB1760C47C30B0108461B7D80B19538 /* Pods-FakerLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0753FF15DF37E4A090CFD170736CCDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A27D87E3854349AEB34243B06CBA75AF /* Pods-FakerLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5BEC15D08B494119315862EAB19B37 /* Pods-FakerLib_Tests-dummy.m */; };
+		B208A512ED6C3BA4BF1D90BE7A93981D /* FakerLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E61F605E550009AF9D37A3A6C465F7 /* FakerLib-dummy.m */; };
+		B765EF15EEFDA24332DAD9A64E08DFA3 /* FakerLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C069574E685BEE508A8311260729B24 /* FakerLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7AE4BF6E49B1558D04317351FCA5666 /* Pods-FakerLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6C0DCED60BE2538AB10D7CFA5409F2 /* Pods-FakerLib_Example-dummy.m */; };
+		F9852790D4191DE9DD527D5AF3C14E0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F7E9ECB54A79FFBEA547CF4132F2177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A7F4B2E5B8FBDFE0806E5C0BFA8037;
+			remoteInfo = FakerLib;
+		};
+		9F56B5B2FECC2DE212FFBC0D920DF9D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520BDD3A96AADBC6A194894324EFA2C4;
+			remoteInfo = "Pods-FakerLib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD3A75425F7200A000D6AD4 /* FLObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FLObject.h; path = FakerLib/Classes/FLObject.h; sourceTree = "<group>"; };
+		0AD3A75525F7200A000D6AD4 /* FLObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FLObject.m; path = FakerLib/Classes/FLObject.m; sourceTree = "<group>"; };
+		157594476F8902A0089BD0DE1E979DA0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		183ADBCBC74EB1E4917B17B792C7BA09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		19513856352315FFDBEC31A0B0358CB4 /* FakerLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FakerLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B30DCA6707420D6976C8458F3026BF7 /* Pods-FakerLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FakerLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1C5BEC15D08B494119315862EAB19B37 /* Pods-FakerLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FakerLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		2D1784564FF92D4B1C455B0E7CD2C7EA /* Pods-FakerLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FakerLib_Example.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F0E3797BFB5F8760A2684CDFD92386F /* Pods-FakerLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FakerLib_Tests.modulemap"; sourceTree = "<group>"; };
+		4C069574E685BEE508A8311260729B24 /* FakerLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FakerLib-umbrella.h"; sourceTree = "<group>"; };
+		4DD11A6C2C5ED4EE8D0B7F6196634A7B /* Pods-FakerLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakerLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B714DE7D48788C835BEE569D033E999 /* FakerLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FakerLib.debug.xcconfig; sourceTree = "<group>"; };
+		5D6C0DCED60BE2538AB10D7CFA5409F2 /* Pods-FakerLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FakerLib_Example-dummy.m"; sourceTree = "<group>"; };
+		6398DE729F87C253D5EFCECD22BD24C4 /* Pods-FakerLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakerLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6B54C66C2EBE07A40A099CC182387F6B /* Pods-FakerLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakerLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		770CCC16A7AC4DF6C04357B2219F8301 /* Pods_FakerLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakerLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB1760C47C30B0108461B7D80B19538 /* Pods-FakerLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FakerLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		7E273F1A8E5FF37EB59876E580667C6A /* Pods-FakerLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FakerLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E3AF0D575032FDBBD89A63C058CCC8A /* FakerLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FakerLib-prefix.pch"; sourceTree = "<group>"; };
+		83D8C9C0745A99B09C15560C24615C02 /* Pods-FakerLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakerLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9BB7D4F133406204661C7FCAB30D74 /* Pods_FakerLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakerLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34AF6BCB762E27148B57F6F39DD7AF2 /* Pods-FakerLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakerLib_Example-Info.plist"; sourceTree = "<group>"; };
+		A4E61F605E550009AF9D37A3A6C465F7 /* FakerLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FakerLib-dummy.m"; sourceTree = "<group>"; };
+		A7BFDD5E242F02133A4F4E97207B1941 /* FakerLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FakerLib-Info.plist"; sourceTree = "<group>"; };
+		B277435A27CE1033867F36A7423D984E /* FakerLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FakerLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B39169B57EA6514E568213817345757E /* Pods-FakerLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakerLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		B423ECE8A5938F4BB6A7336A33F39C2A /* FakerLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FakerLib.modulemap; sourceTree = "<group>"; };
+		C63E7FFBAF344676742193A78C331277 /* Pods-FakerLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakerLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C82C867066764B46389E142BB6B9F94E /* Pods-FakerLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakerLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DA469EF6AF93FFB931F64DF4122ED423 /* Pods-FakerLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FakerLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E1A51DE38D0181E1DF00C8AB410D9A19 /* Pods-FakerLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FakerLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5E2AD95CED47D812CE3219948AFC9E4 /* FakerLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FakerLib.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		722A94D1357F57ACB3F2AC32CF86CF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0753FF15DF37E4A090CFD170736CCDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763FB9F3D1191667B2D010BD9238321D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074AF6EB8DFFEC089C1B00A0146D7697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32824FF8AD2ADB7D461322088DD64B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9852790D4191DE9DD527D5AF3C14E0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042A891F91ABCA129BC90DE32A0450B9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B277435A27CE1033867F36A7423D984E /* FakerLib.podspec */,
+				157594476F8902A0089BD0DE1E979DA0 /* LICENSE */,
+				183ADBCBC74EB1E4917B17B792C7BA09 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7AF78BBDD67466401FA4E19FBF5F4E00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B423ECE8A5938F4BB6A7336A33F39C2A /* FakerLib.modulemap */,
+				A4E61F605E550009AF9D37A3A6C465F7 /* FakerLib-dummy.m */,
+				A7BFDD5E242F02133A4F4E97207B1941 /* FakerLib-Info.plist */,
+				7E3AF0D575032FDBBD89A63C058CCC8A /* FakerLib-prefix.pch */,
+				4C069574E685BEE508A8311260729B24 /* FakerLib-umbrella.h */,
+				5B714DE7D48788C835BEE569D033E999 /* FakerLib.debug.xcconfig */,
+				F5E2AD95CED47D812CE3219948AFC9E4 /* FakerLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FakerLib";
+			sourceTree = "<group>";
+		};
+		805935564E928A1B5A1822E7414E5C1F /* FakerLib */ = {
+			isa = PBXGroup;
+			children = (
+				042A891F91ABCA129BC90DE32A0450B9 /* Pod */,
+				7AF78BBDD67466401FA4E19FBF5F4E00 /* Support Files */,
+				0AD3A75425F7200A000D6AD4 /* FLObject.h */,
+				0AD3A75525F7200A000D6AD4 /* FLObject.m */,
+			);
+			name = FakerLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8A9B482924CEBD71DE3ECD9BD512DA8E /* Pods-FakerLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2D1784564FF92D4B1C455B0E7CD2C7EA /* Pods-FakerLib_Example.modulemap */,
+				E1A51DE38D0181E1DF00C8AB410D9A19 /* Pods-FakerLib_Example-acknowledgements.markdown */,
+				6B54C66C2EBE07A40A099CC182387F6B /* Pods-FakerLib_Example-acknowledgements.plist */,
+				5D6C0DCED60BE2538AB10D7CFA5409F2 /* Pods-FakerLib_Example-dummy.m */,
+				1B30DCA6707420D6976C8458F3026BF7 /* Pods-FakerLib_Example-frameworks.sh */,
+				A34AF6BCB762E27148B57F6F39DD7AF2 /* Pods-FakerLib_Example-Info.plist */,
+				7AB1760C47C30B0108461B7D80B19538 /* Pods-FakerLib_Example-umbrella.h */,
+				C82C867066764B46389E142BB6B9F94E /* Pods-FakerLib_Example.debug.xcconfig */,
+				6398DE729F87C253D5EFCECD22BD24C4 /* Pods-FakerLib_Example.release.xcconfig */,
+			);
+			name = "Pods-FakerLib_Example";
+			path = "Target Support Files/Pods-FakerLib_Example";
+			sourceTree = "<group>";
+		};
+		8DBEED9D15F13C90B82BFC0DBC5073D5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				805935564E928A1B5A1822E7414E5C1F /* FakerLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8DBEED9D15F13C90B82BFC0DBC5073D5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E494EF2D0D1CAFF079F34C2AA31F62A2 /* Products */,
+				ECB0DB99FA6AE443A5AB51AF494BB8D3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E494EF2D0D1CAFF079F34C2AA31F62A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19513856352315FFDBEC31A0B0358CB4 /* FakerLib.framework */,
+				770CCC16A7AC4DF6C04357B2219F8301 /* Pods_FakerLib_Example.framework */,
+				9D9BB7D4F133406204661C7FCAB30D74 /* Pods_FakerLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB0DB99FA6AE443A5AB51AF494BB8D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A9B482924CEBD71DE3ECD9BD512DA8E /* Pods-FakerLib_Example */,
+				F2928D150F3784D244D92E9722628533 /* Pods-FakerLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F2928D150F3784D244D92E9722628533 /* Pods-FakerLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E3797BFB5F8760A2684CDFD92386F /* Pods-FakerLib_Tests.modulemap */,
+				7E273F1A8E5FF37EB59876E580667C6A /* Pods-FakerLib_Tests-acknowledgements.markdown */,
+				4DD11A6C2C5ED4EE8D0B7F6196634A7B /* Pods-FakerLib_Tests-acknowledgements.plist */,
+				1C5BEC15D08B494119315862EAB19B37 /* Pods-FakerLib_Tests-dummy.m */,
+				B39169B57EA6514E568213817345757E /* Pods-FakerLib_Tests-Info.plist */,
+				DA469EF6AF93FFB931F64DF4122ED423 /* Pods-FakerLib_Tests-umbrella.h */,
+				83D8C9C0745A99B09C15560C24615C02 /* Pods-FakerLib_Tests.debug.xcconfig */,
+				C63E7FFBAF344676742193A78C331277 /* Pods-FakerLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-FakerLib_Tests";
+			path = "Target Support Files/Pods-FakerLib_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04C806EDBB02DA7A6E7944629DCF003F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B765EF15EEFDA24332DAD9A64E08DFA3 /* FakerLib-umbrella.h in Headers */,
+				0AD3A75625F7200A000D6AD4 /* FLObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E2DDBBB5AFDF736768CA75BF9E2DE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F0F4A9820217D7E542583200FBC2B8 /* Pods-FakerLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD2A817B1D84EDC644BE1A6AACDEEF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6C714889ADCB6E7240D74BE1E28FFF /* Pods-FakerLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25A7F4B2E5B8FBDFE0806E5C0BFA8037 /* FakerLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0ADF911AF055CF34680B42995C8D235 /* Build configuration list for PBXNativeTarget "FakerLib" */;
+			buildPhases = (
+				04C806EDBB02DA7A6E7944629DCF003F /* Headers */,
+				8A7E2A103B978620B26F6B4A1E095720 /* Sources */,
+				763FB9F3D1191667B2D010BD9238321D /* Frameworks */,
+				FBB977F4E95424B3BED4818AB1EB82E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakerLib;
+			productName = FakerLib;
+			productReference = 19513856352315FFDBEC31A0B0358CB4 /* FakerLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		520BDD3A96AADBC6A194894324EFA2C4 /* Pods-FakerLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DFA3E0D0369ACA864EB46D0C063B31 /* Build configuration list for PBXNativeTarget "Pods-FakerLib_Example" */;
+			buildPhases = (
+				29E2DDBBB5AFDF736768CA75BF9E2DE2 /* Headers */,
+				EDE4BE180D57E031FA17CC4595E0D4CD /* Sources */,
+				722A94D1357F57ACB3F2AC32CF86CF09 /* Frameworks */,
+				C65207AC34ADBE44A4C7752EDA777D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD64D872564218284857ED7721B98A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-FakerLib_Example";
+			productName = "Pods-FakerLib_Example";
+			productReference = 770CCC16A7AC4DF6C04357B2219F8301 /* Pods_FakerLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9A61E163E80EE5D6EBEFAEA5C0F6EC3 /* Pods-FakerLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D2000929FFFD0665D8AE9855D845B6 /* Build configuration list for PBXNativeTarget "Pods-FakerLib_Tests" */;
+			buildPhases = (
+				5AD2A817B1D84EDC644BE1A6AACDEEF8 /* Headers */,
+				A05EEE8A3C7A368B371719B32F5F6CC1 /* Sources */,
+				D32824FF8AD2ADB7D461322088DD64B2 /* Frameworks */,
+				0E5CA11A142E99FB718B7E8A1B084BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA503B1F128563A8CF96425B81CF30CB /* PBXTargetDependency */,
+			);
+			name = "Pods-FakerLib_Tests";
+			productName = "Pods-FakerLib_Tests";
+			productReference = 9D9BB7D4F133406204661C7FCAB30D74 /* Pods_FakerLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E494EF2D0D1CAFF079F34C2AA31F62A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A7F4B2E5B8FBDFE0806E5C0BFA8037 /* FakerLib */,
+				520BDD3A96AADBC6A194894324EFA2C4 /* Pods-FakerLib_Example */,
+				F9A61E163E80EE5D6EBEFAEA5C0F6EC3 /* Pods-FakerLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E5CA11A142E99FB718B7E8A1B084BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65207AC34ADBE44A4C7752EDA777D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB977F4E95424B3BED4818AB1EB82E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A7E2A103B978620B26F6B4A1E095720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD3A75725F7200A000D6AD4 /* FLObject.m in Sources */,
+				B208A512ED6C3BA4BF1D90BE7A93981D /* FakerLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05EEE8A3C7A368B371719B32F5F6CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27D87E3854349AEB34243B06CBA75AF /* Pods-FakerLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE4BE180D57E031FA17CC4595E0D4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AE4BF6E49B1558D04317351FCA5666 /* Pods-FakerLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA503B1F128563A8CF96425B81CF30CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FakerLib_Example";
+			target = 520BDD3A96AADBC6A194894324EFA2C4 /* Pods-FakerLib_Example */;
+			targetProxy = 9F56B5B2FECC2DE212FFBC0D920DF9D5 /* PBXContainerItemProxy */;
+		};
+		EBD64D872564218284857ED7721B98A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FakerLib;
+			target = 25A7F4B2E5B8FBDFE0806E5C0BFA8037 /* FakerLib */;
+			targetProxy = 4F7E9ECB54A79FFBEA547CF4132F2177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2287CDF66904BCD5A848EC20CFECB93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B714DE7D48788C835BEE569D033E999 /* FakerLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FakerLib/FakerLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FakerLib/FakerLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FakerLib/FakerLib.modulemap";
+				PRODUCT_MODULE_NAME = FakerLib;
+				PRODUCT_NAME = FakerLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		640FF5CF3D0B273B7C87A61BABBE8E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82C867066764B46389E142BB6B9F94E /* Pods-FakerLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FakerLib_Example/Pods-FakerLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakerLib_Example/Pods-FakerLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79897D6485ADF3994EC21B315406F712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D8C9C0745A99B09C15560C24615C02 /* Pods-FakerLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FakerLib_Tests/Pods-FakerLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakerLib_Tests/Pods-FakerLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BC05A135D294170494C8208BBA21B46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C63E7FFBAF344676742193A78C331277 /* Pods-FakerLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FakerLib_Tests/Pods-FakerLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakerLib_Tests/Pods-FakerLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5181DAAD92226AD74FCE8D0756C6C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E2AD95CED47D812CE3219948AFC9E4 /* FakerLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FakerLib/FakerLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FakerLib/FakerLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FakerLib/FakerLib.modulemap";
+				PRODUCT_MODULE_NAME = FakerLib;
+				PRODUCT_NAME = FakerLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAF15A26ACDAF436BE77D12D9D500FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6398DE729F87C253D5EFCECD22BD24C4 /* Pods-FakerLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FakerLib_Example/Pods-FakerLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakerLib_Example/Pods-FakerLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D2000929FFFD0665D8AE9855D845B6 /* Build configuration list for PBXNativeTarget "Pods-FakerLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79897D6485ADF3994EC21B315406F712 /* Debug */,
+				BC05A135D294170494C8208BBA21B46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0ADF911AF055CF34680B42995C8D235 /* Build configuration list for PBXNativeTarget "FakerLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2287CDF66904BCD5A848EC20CFECB93D /* Debug */,
+				E5181DAAD92226AD74FCE8D0756C6C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DFA3E0D0369ACA864EB46D0C063B31 /* Build configuration list for PBXNativeTarget "Pods-FakerLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640FF5CF3D0B273B7C87A61BABBE8E49 /* Debug */,
+				FAF15A26ACDAF436BE77D12D9D500FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

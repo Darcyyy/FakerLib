@@ -1,0 +1,6 @@
+framework module Pods_FakerLib_Tests {
+  umbrella header "Pods-FakerLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

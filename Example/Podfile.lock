@@ -1,0 +1,16 @@
+PODS:
+  - FakerLib (0.1.0)
+
+DEPENDENCIES:
+  - FakerLib (from `../`)
+
+EXTERNAL SOURCES:
+  FakerLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FakerLib: a1e895cac82002e24e2b2bf2bdee4f555f07d5c0
+
+PODFILE CHECKSUM: 31be71e0b6bae5b53d214760d72919ed07c60bd8
+
+COCOAPODS: 1.9.3
