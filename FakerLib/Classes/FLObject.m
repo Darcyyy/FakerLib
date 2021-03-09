@@ -19,5 +19,9 @@
     NSLog(@"bbb");
 }
 
++ (void)ccc
+{
+    NSLog(@"ccc");
+}
 
 @end
