@@ -14,4 +14,10 @@
     NSLog(@"aaa");
 }
 
++ (void)bbb
+{
+    NSLog(@"bbb");
+}
+
+
 @end
