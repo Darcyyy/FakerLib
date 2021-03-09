@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FakerLib_Example' do
+  pod 'FakerLib', :path => '../'
+
+  target 'FakerLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
