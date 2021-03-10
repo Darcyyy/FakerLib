@@ -9,6 +9,13 @@
 
 @implementation FLObject
 
++ (void)load
+{
+    [self aaa];
+    [self bbb];
+    [self ccc];
+}
+
 + (void)aaa
 {
     NSLog(@"aaa");
