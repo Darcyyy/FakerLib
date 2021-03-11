@@ -31,4 +31,9 @@
     NSLog(@"ccc");
 }
 
++ (void)ddd
+{
+    NSLog(@"ddd");
+}
+
 @end
