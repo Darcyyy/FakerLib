@@ -15,6 +15,7 @@
     [self bbb];
     [self ccc];
     [self ddd];
+    [self eee];
 }
 
 + (void)aaa
