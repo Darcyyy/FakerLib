@@ -37,4 +37,9 @@
     NSLog(@"ddd");
 }
 
++ (void)eee
+{
+    NSLog(@"eee");
+}
+
 @end
