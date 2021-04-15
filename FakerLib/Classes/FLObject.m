@@ -43,6 +43,11 @@
     NSLog(@"eee");
 }
 
++ (void)hhhh
+{
+    NSLog(@"hhh");
+}
+
 + (void)fff
 {
     NSLog(@"fff");
