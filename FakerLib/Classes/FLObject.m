@@ -43,4 +43,9 @@
     NSLog(@"eee");
 }
 
++ (void)fff
+{
+    NSLog(@"fff");
+}
+
 @end
